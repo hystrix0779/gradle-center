@@ -1,0 +1,5 @@
+dependencies {
+    compile "org.mybatis.spring.boot:mybatis-spring-boot-starter"
+}
+jar.enabled=true
+bootJar.enabled=false

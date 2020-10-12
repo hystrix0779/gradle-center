@@ -1,0 +1,5 @@
+apply from : "$gradleScriptDir/maven-publish.gradle"
+dependencies {
+}
+jar.enabled=true
+bootJar.enabled=false

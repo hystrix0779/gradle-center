@@ -1,0 +1,10 @@
+apply from : "$gradleScriptDir/maven-publish.gradle"
+dependencies {
+
+    compileOnly "io.springfox:springfox-swagger2"
+    compileOnly "io.springfox:springfox-swagger-ui"
+
+//    compile('org.springframework.cloud:spring-cloud-starter-openfeign')
+}
+jar.enabled=true
+bootJar.enabled=false

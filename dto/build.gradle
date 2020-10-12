@@ -1,0 +1,9 @@
+apply from : "$gradleScriptDir/maven-publish.gradle"
+dependencies {
+
+    compileOnly "javax.validation:validation-api"
+    compileOnly "io.springfox:springfox-swagger2"
+    compileOnly "io.springfox:springfox-swagger-ui"
+}
+jar.enabled=true
+bootJar.enabled=false

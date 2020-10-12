@@ -1,0 +1,10 @@
+apply from : "$gradleScriptDir/maven-publish.gradle"
+dependencies {
+//    compileOnly "com.fasterxml.jackson.core:jackson-annotations"
+
+    compileOnly "io.springfox:springfox-swagger2"
+    compileOnly "io.springfox:springfox-swagger-ui"
+
+}
+jar.enabled=true
+bootJar.enabled=false

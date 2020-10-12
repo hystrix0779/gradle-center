@@ -1,0 +1,17 @@
+dependencies {
+    compile(project(":code"))
+    compile(project(":repository"))
+    compile(project(":mapper"))
+    compile(project(":vo"))
+    compile(project(":dto"))
+
+
+    annotationProcessor("org.projectlombok:lombok")
+    compileOnly("org.projectlombok:lombok")
+    compileOnly("javax.servlet:javax.servlet-api")
+
+
+    compile('com.alibaba:fastjson')
+}
+jar.enabled=true
+bootJar.enabled=false

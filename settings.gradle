@@ -1,0 +1,26 @@
+rootProject.name = 'center'
+
+include 'code'
+project(":code").projectDir = file('code')
+include 'enums'
+project(":enums").projectDir = file('enums')
+include 'entity'
+project(":entity").projectDir = file('entity')
+include 'repository'
+project(":repository").projectDir = file('repository')
+include 'pojo'
+project(":pojo").projectDir = file('pojo')
+include 'mapper'
+project(":mapper").projectDir = file('mapper')
+include 'dto'
+project(":dto").projectDir = file('dto')
+include 'vo'
+project(":vo").projectDir = file('vo')
+include 'service'
+project(":service").projectDir = file('service')
+include 'api'
+project(":api").projectDir = file('api')
+include 'task'
+project(":task").projectDir = file('task')
+include 'web'
+project(":web").projectDir = file('web')

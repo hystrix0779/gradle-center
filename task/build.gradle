@@ -1,0 +1,4 @@
+dependencies{
+    compile project(":service")
+}
+bootJar.enabled=false
